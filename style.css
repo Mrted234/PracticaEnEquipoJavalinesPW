@@ -1,0 +1,96 @@
+* { 
+    box-sizing: border-box; 
+}
+
+:root {
+/* Colores principales de la marca*/
+--brand-primary: #1C2541;
+--brand-secondary: #5BC0BE;
+--brand-terciary: #3A506B;
+}
+
+body{
+    margin: 0;
+    
+    color: var(--brand-primary);
+    background-color: #0B1020;
+}
+
+header{
+    background-color: #1E3A5F;
+    color: #F2F4F8;
+    padding: 1rem;
+    text-align: center;
+}
+
+header a{
+    
+}
+
+main{
+    
+}
+
+footer a{
+    
+}
+
+footer{
+    
+}
+
+/*Detalle de Talleres*/
+section.informacion{
+    
+}
+
+section.informacion a{
+    
+}
+
+section.lista{
+    
+}
+
+/*Catalogo de Talleres*/
+
+.catalogo{
+    
+}
+
+.tarjeta{
+    
+}
+
+.tarjeta h2{
+    
+}
+
+.tarjeta a{
+    
+}
+
+.tarjeta a:hover {
+    
+}
+
+/*Forms*/
+.registro h1{
+    
+}
+
+form{
+
+}
+
+button{
+    
+}
+
+button:hover{
+    
+}
+
+input{
+    
+}
