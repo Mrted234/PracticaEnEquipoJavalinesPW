@@ -91,20 +91,7 @@ main {
     font-size: 0.95rem;
     color: var(--brand-secondary);
 }
-/*Es la parte de los footer*/
-footer {
-    background-color: var(--brand-terciary);
-    color: var(--brand-secondary);
-    padding: 1.5rem;
-    text-align: center;
-    margin-top: auto;
-    border-top: 1px solid var(--brand-cuaternary);
-}
-
-footer a {
-    color: var(--brand-cuaternary);
-    text-decoration: none;
-}
+/*Es la parte del section*/
 
 section.informacion {
     background-color: var(--brand-terciary);
