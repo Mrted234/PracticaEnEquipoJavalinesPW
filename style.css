@@ -1,96 +1,116 @@
-* { 
-    box-sizing: border-box; 
-}
-
 :root {
-/* Colores principales de la marca*/
---brand-primary: #1C2541;
---brand-secondary: #5BC0BE;
---brand-terciary: #3A506B;
+  /* Colores principales de la marca */
+  --brand-primary: #1C2541;     /* Color de fondo */
+  --brand-secondary: #5BC0BE;   /* Color de letras */
+  --brand-terciary: #3A506B;    /* Color de header y footer */
+  --brand-cuaternary: #6FFFE9;  /* Color de los bordes y botones */
+
+  /* Estilo de escritura */
+  --brand-font-display: 'Playfair Display', serif; 
+--brand-font-body: 'Inter', sans-serif;          
 }
 
-body{
+body {
     margin: 0;
-    
-    color: var(--brand-primary);
-    background-color: #0B1020;
+    font-family: var(--brand-font-body); 
+    color: var(--brand-secondary); 
+    background-color: var(--brand-primary); 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-header{
-    background-color: #1E3A5F;
-    color: #F2F4F8;
-    padding: 1rem;
-    text-align: center;
+header {
+    background-color: var(--brand-terciary); 
+    color: var(--brand-secondary);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header a{
-    
+header a {
+    color: var(--brand-cuaternary); 
+    text-decoration: none;
+    font-weight: 600;
 }
 
-main{
-    
+header a:hover {
+    color: var(--brand-secondary);
 }
 
-footer a{
-    
+main {
+    flex: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-footer{
-    
+.registro h1 {
+    font-family: var(--brand-font-display); 
+    font-size: 2.5rem;
+    color: var(--brand-secondary);
+    margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 
-/*Detalle de Talleres*/
-section.informacion{
-    
+.catalogo {
+    display: flex;
+    gap: 1.5rem; /* Espaciado idéntico al de la imagen */
+    flex-wrap: wrap; 
 }
 
-section.informacion a{
-    
+.tarjeta {
+    background-color: var(--brand-terciary); 
+    border: 2px solid var(--brand-cuaternary); 
+    border-radius: 8px;
+    padding: 2rem;
+    width: 280px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    box-sizing: border-box;
 }
 
-section.lista{
-    
+.tarjeta h2 {
+    font-family: var(--brand-font-display); 
+    font-size: 1.5rem;
+    color: var(--brand-cuaternary); 
+    line-height: 1.2;
 }
 
-/*Catalogo de Talleres*/
 
-.catalogo{
-    
-}
-
-.tarjeta{
-    
-}
-
-.tarjeta h2{
-    
-}
-
-.tarjeta a{
-    
-}
-
-.tarjeta a:hover {
-    
-}
-
-/*Forms*/
-.registro h1{
-    
-}
-
-form{
-
-}
-
-button{
-    
-}
-
-button:hover{
+.tarjeta p {
     
 }
 
-input{
+footer {
+    
+}
+
+footer a {
+    
+}
+
+section.informacion {
+    
+}
+
+form {
+    
+}
+
+input {
+    
+}
+
+button {
+
+}
+
+button:hover {
     
 }
