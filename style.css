@@ -6,10 +6,11 @@
   --brand-cuaternary: #6FFFE9;  /* Color de los bordes y botones */
 
   /* Estilo de escritura */
-  --brand-font-display: 'Playfair Display', serif; 
+--brand-font-display: 'Playfair Display', serif; 
 --brand-font-body: 'Inter', sans-serif;          
 }
 
+/*General*/
 body {
     margin: 0;
     font-family: var(--brand-font-body); 
@@ -48,6 +49,7 @@ main {
     box-sizing: border-box;
 }
 
+/*En la parte de registro es el formulario*/
 .registro h1 {
     font-family: var(--brand-font-display); 
     font-size: 2.5rem;
@@ -62,6 +64,7 @@ main {
     flex-wrap: wrap; 
 }
 
+/*En la parte del index y las tarjetitas*/
 .tarjeta {
     background-color: var(--brand-terciary); 
     border: 2px solid var(--brand-cuaternary); 
@@ -84,33 +87,58 @@ main {
 
 
 .tarjeta p {
-    
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--brand-secondary);
 }
-
+/*Es la parte de los footer*/
 footer {
-    
+    background-color: var(--brand-terciary);
+    color: var(--brand-secondary);
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: auto;
+    border-top: 1px solid var(--brand-cuaternary);
 }
 
 footer a {
-    
+    color: var(--brand-cuaternary);
+    text-decoration: none;
 }
 
 section.informacion {
-    
+    background-color: var(--brand-terciary);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--brand-cuaternary);
 }
-
+/*La parte del formulario*/
 form {
-    
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
 }
 
 input {
-    
+    background-color: var(--brand-primary);
+    color: var(--brand-secondary);
+    border: 1px solid var(--brand-terciary);
+    padding: 0.75rem;
+    border-radius: 6px;
+    font-family: var(--brand-font-body);
 }
 
 button {
-
+    background-color: var(--brand-cuaternary); 
+    color: var(--brand-primary); 
+    font-family: var(--brand-font-body);
+    font-weight: bold;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
 }
 
 button:hover {
-    
+    background-color: var(--brand-secondary);
 }
