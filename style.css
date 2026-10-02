@@ -66,7 +66,7 @@ main {
 
 .catalogo {
     display: flex;
-    gap: 1.5rem; /* Espaciado idéntico al de la imagen */
+    gap: 1.5rem;
     flex-wrap: wrap; 
 }
 
