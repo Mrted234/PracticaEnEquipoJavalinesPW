@@ -99,11 +99,12 @@ main {
 }
 /*Es la parte del section*/
 
-section.informacion {
+.informacion {
     background-color: var(--brand-terciary);
     padding: 2rem;
     border-radius: 8px;
     border: 1px solid var(--brand-cuaternary);
+    margin-bottom: 10px;
 }
 /*La parte del formulario*/
 form {
